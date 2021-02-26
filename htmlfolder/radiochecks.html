@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/search">
+      <input type="checkbox" name="tos" id="tos_radio" value="123" />
+      <input type="checkbox" name="tos" id="tos_radio" value="456" />
+      <label for="tos_radio"></label>
+      <button>submit</button>
+    </form>
+    <form action="/meal">
+      <label for="choice">Select a meal</label>
+      <select name="meal_type" id="choice">
+        <option value="">--Please select your type--</option>
+        <option value="veg">vegetarian</option>
+        <option value="nveg">non-vegetarian</option>
+        <option value="na">I'm on a diet.</option>
+      </select>
+      <button>Submit</button>
+    </form>
+    <form action="/search">
+      <label for="quantity">Select Quantity</label>
+      <input type="range" name="qty" id="quantity" value="5" min="2" max="8" />
+      <button>enter</button>
+      <label for="text1">Any comments</label>
+      <textarea id="text1" rows="50" cols="50" placeholder="as you wish" /> </textarea>
+      <button>sub</button>
+    </form>
+  </body>
+</html>

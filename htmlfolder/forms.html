@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms demo</title>
+  </head>
+  <body>
+    <button type="submit">I'm outside</button>
+    <form action="/search">
+      <label for="username">Enter your Name</label>
+      <input id="username" type="text" placeholder="name" name="yourname" />
+      <input type="color" />
+      <input type="month" />
+      <input type="number" />
+      <label for="password">Enter your password</label>
+      <input
+        id="password"
+        type="password"
+        placeholder="passcode"
+        name="passGET"
+        required
+      />
+      <input type="time" />
+      <input type="week" />
+      <input type="radio" />
+      <input type="checkbox" />
+      <input type="date" />
+      <input type="datetime" />
+      <input type="" />
+      <input type="submit" value="click me!" />
+      <button>Submit</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" />
+      <button>youtube search</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>google search</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" placeholder="just hit enter" />
+    </form>
+  </body>
+</html>

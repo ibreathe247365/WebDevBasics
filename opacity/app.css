@@ -1,0 +1,12 @@
+section {
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+}
+#one {
+  background-color: rgba(127, 255, 0, 0.6);
+}
+#two {
+  opacity: 90%;
+  color: beige;
+}

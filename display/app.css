@@ -1,0 +1,23 @@
+h1 {
+  font-size: 50px;
+  background-color: tomato;
+  border: blueviolet 2px solid;
+  display: inline;
+  line-height: 150%;
+}
+
+span {
+  background-color: chartreuse;
+  border: black 1px solid;
+  display: block;
+}
+div {
+  background-color: rgb(243, 169, 224);
+  width: 70%;
+  height: 50%;
+}
+section {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+}

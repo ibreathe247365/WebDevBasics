@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+h1 {
+  margin-left: 50%;
+}
+.one {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+.two {
+  /* box-sizing: border-box; */
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: chartreuse;
+  border-left-width: 10px;
+}
+.three {
+  background-color: chocolate;
+  border: 2px solid violet;
+  border-radius: 10px;
+  /* border-radius: 50%; */
+  padding: 50px;
+  padding-left: 25px;
+}

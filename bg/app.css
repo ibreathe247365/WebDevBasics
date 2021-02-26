@@ -1,0 +1,12 @@
+section {
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  /* background: no-repeat center/80% url("/bg/windows_light.jpg"); */
+  /* background-image: url("/bg/windows_light.jpg"); */
+}
+h1 {
+  font-size: 100px;
+  color: white;
+}

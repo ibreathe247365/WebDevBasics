@@ -1,0 +1,38 @@
+h2 {
+  color: greenyellow;
+  font-weight: normal;
+  text-align: center;
+  /* text-decoration: blue line-through wavy; */
+  line-height: 2;
+  letter-spacing: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* h1,h2 */
+/* #element_id */
+/* body */
+/* button */
+/* .tag 
+put span class="tag" */
+/* can put this sticker on any other attribute   */
+/* descendant adjacent-descendant+ direct-discendant > */
+/* Attribute selector */
+/* input [type="text"] {
+  color: bisque;
+} */
+/* section [class = "post"] {
+  bla
+} */
+/* more on mdn */
+button:hover {
+  background-color: cadetblue;
+}
+/* see more pseudo selectors /classes
+*/
+/* .post:nth-of-type(2n) {
+  bla
+} */
+/* see more pseudo elements
+h2::first-letter {}
+::selection {
+  back..
+}*/
